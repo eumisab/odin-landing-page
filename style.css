@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-family: 'Bebas Neue', sans-serif;
+    color:blanchedalmond;
+}
+
+.top {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(kopi.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+li a:hover {
+    border: 10px #967259;
+}
+
+.content {
+    height: 400px;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content h1 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 15%;
+    flex: 1;
+}
+
+.top button {
+    padding: 10px 20px;
+    background: #967259;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-left: 20%;
+}
+
+.title {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #967259;
+    height: 15vh;
+    text-transform: lowercase;
+}
+
+.cards {
+    padding: 5rem;
+    display: flex;
+    background-color: #967259;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 5px 20px 0px -50px;
+}
+
+.cards img {
+    max-width: 80%;
+}
+
+.cards h4 {
+    margin-top: 15px;
+}
+
+.quote {
+    background-color: #dbc1ac;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.inner span {
+    font-family: 'Bebas nue', sans-serif ;
+    font-weight: 200;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    font-size: 36px;
+    line-height: 3rem;
+}
+
+
+cite {
+    align-self: flex-end;
+    line-height: 2rem;
+    font-family:'Times New Roman', Times, serif ;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.sign-up {
+    padding: 55px 88px;
+    background-color: #be9b7b;
+    display: flex;
+}
+
+.sign-text {
+    color: #fff;
+    background-color: rgba(60, 47, 47, 0.9);
+    padding: 2rem;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    line-height: 22px;
+}
+
+.sign-button {
+    width: 75px;
+    padding: 10px;
+    background: #967259;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 80px;
+}
