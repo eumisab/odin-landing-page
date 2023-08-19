@@ -143,6 +143,8 @@ cite {
     padding: 55px 88px;
     background-color: #be9b7b;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sign-text {
