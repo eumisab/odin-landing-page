@@ -140,7 +140,7 @@ cite {
 }
 
 .sign-up {
-    padding: 55px 88px;
+    padding: 95px 98px;
     background-color: #be9b7b;
     display: flex;
     justify-content: center;
@@ -167,4 +167,14 @@ cite {
     cursor: pointer;
     color: #fff;
     margin-right: 80px;
+}
+
+footer {
+    color: #fff;
+    padding: 45px;
+    background: #38220f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
