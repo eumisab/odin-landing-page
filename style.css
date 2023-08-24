@@ -94,6 +94,8 @@ li a:hover {
 
 .cards img {
     max-width: 80%;
+    height: 200px;
+    width: 400px;
 }
 
 .cards h4 {
