@@ -16,6 +16,7 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
 }
 
 header {
@@ -76,11 +77,12 @@ li a:hover {
 }
 
 .cards {
-    padding: 3rem;
+    /* padding: 3rem; */
     display: flex;
     background-color: #967259;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -89,13 +91,14 @@ li a:hover {
     align-items: center;
     width: 300px;
     height: 300px;
-    margin: 5px 20px 0px -50px;
+    flex-wrap: wrap;
 }
 
 .cards img {
     max-width: 80%;
     height: 200px;
     width: 400px;
+    margin: 2px;
 }
 
 .cards h4 {
@@ -139,6 +142,7 @@ cite {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .sign-text {
